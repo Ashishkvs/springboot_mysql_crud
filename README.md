@@ -18,6 +18,7 @@ important annotation
 //creating object via factory method using framework
 @Autowired
 @Qualifier (when ambiguity )
+@Primary (when 1 implementation class need to set default)
 
 //request/submit for object while hiting url
 @RequestBody
